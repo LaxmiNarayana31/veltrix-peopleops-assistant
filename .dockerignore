@@ -1,0 +1,29 @@
+# Environment files (never bake credentials into images)
+.env
+.env.*
+*.env
+
+# Version control
+.git
+.gitignore
+
+# Python cache & virtual environments
+__pycache__
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temporary files
+logs/
+*.log
+*.tmp
+scratch/
+
+# Caches
+data/chunks_cache/
+data/parsed_docs_cache/
